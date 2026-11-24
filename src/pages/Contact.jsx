@@ -1,8 +1,20 @@
 import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import profileImg from "../assets/images/charlie_profile.jpg";
 
 const Contact = () => {
   return (
-    <section className="w-full max-w-4xl mx-auto px-6 py-16 text-center">
+    <section className="mx-auto w-full max-w-4xl px-2 py-6 text-center sm:px-4 sm:py-8 lg:py-12">
+      
+                  <div className="text-center">
+                    <p className="text-sm text-gray-500 dark:text-white">Digital Tech Strategist</p>
+                    <p className="text-sm text-gray-500 dark:text-white">Talk business. Think technology. Deliver growth.</p>
+      
+                    <div className="mt-6 space-y-2 text-sm">
+                      <p>✉️ jacksonbushcharles@gmail.com</p>
+                      <p>📍 Lagos, Nigeria</p>
+                    </div>
+                  </div>
+      
       <h2 className="text-3xl font-bold mb-6">Contact Me</h2>
       <p className="mb-6 text-gray-600">
         Feel free to reach out for collaborations or opportunities.

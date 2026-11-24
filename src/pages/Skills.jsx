@@ -85,7 +85,7 @@ const capabilities = [
 
 const Skills = () => {
   return (
-    <section className="w-full max-w-6xl mx-auto px-6 py-16">
+    <section className="mx-auto w-full max-w-6xl px-2 py-6 sm:px-4 sm:py-8 lg:py-12">
       <h2 className="text-3xl font-bold mb-3">Skills &amp; Capabilities</h2>
       <p className="mb-8 text-gray-600 dark:text-gray-300">
         Six connected capability areas, brought together through one role: Digital Tech Strategist.

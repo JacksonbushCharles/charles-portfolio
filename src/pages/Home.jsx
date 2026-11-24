@@ -1,30 +1,28 @@
-import profile from "../assets/images/charlie_profile.jpg"
-
 const Home = () => {
   return (
-    <section className="w-full max-w-6xl mx-auto px-6 py-16 flex items-center justify-center">
+    <section className="mx-auto flex w-full max-w-6xl items-center justify-center px-2 py-6 sm:px-4 sm:py-8 lg:py-12">
         <div className="charlie">
             {/* main content */}
-            <div className="max-w-4xl mx-auto px-6 text-center">
-                <h1 className="text-4xl font-bold mb-4 dark:text-white">
+            <div className="mx-auto max-w-4xl px-2 text-center sm:px-4">
+                <h1 className="mb-4 text-3xl font-bold dark:text-white sm:text-4xl">
                 Hi, I’m Charles
                 </h1>
-                <h3 className="text-xl text-gray-400 mb-6 dark:text-slate-400">
+                <h3 className="mb-5 text-lg text-gray-500 dark:text-slate-400 sm:text-xl">
                   Digital Tech Strategist | Business Growth Through Technology
                   </h3>
-                <p className="text-xl text-gray-600 mb-6 dark:text-slate-500">
+                <p className="mb-5 text-base text-gray-600 dark:text-slate-300 sm:text-lg">
                   I help businesses turn challenges into opportunities through technology, AI, strategic thinking and digital experiences.
                 </p>
-                <p className="text-xl text-gray-600 mb-6 dark:text-slate-500">
+                <p className="mb-5 text-base text-gray-600 dark:text-slate-300 sm:text-lg">
                   From building digital platforms and intelligent systems to improving business operations and digital visibility, I connect practical technology with real business needs.
                 </p>
-                <p className="text-xl text-gray-600 mb-6 dark:text-slate-500">
+                <p className="mb-6 text-base text-gray-600 dark:text-slate-300 sm:text-lg">
                   I don't just build digital solutions. I build solutions that move businesses forward.
                 </p>
 
                 <a
                 href="/contact"
-                className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700"
+                className="inline-block bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700"
                 >
                 Let's Work
                 </a>

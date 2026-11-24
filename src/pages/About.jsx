@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section className="w-full max-w-4xl mx-auto px-6 py-16">
+    <section className="mx-auto w-full max-w-4xl px-2 py-6 sm:px-4 sm:py-8 lg:py-12">
       <h2 className="text-3xl font-bold mb-6 text-gray-900 dark:text-white">About Me</h2>
       <p className="text-gray-400 leading-relaxed">
         Technology is powerful. But knowing where and how to apply it is what creates value.
